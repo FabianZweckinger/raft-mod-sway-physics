@@ -61,7 +61,7 @@ public class SwayPhysicsMod : Mod
             ItemManager.GetItemByName("Placeable_Sign").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
 
         new SwayObject(SwayPhysics.Basic,
-            ItemManager.GetItemByName("Placeable_Cropplot_Small").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
+            ItemManager.GetItemByName("Placeable_Cropplot_Small").settings_buildable.GetBlockPrefabs()[2].gameObject),
 
         new SwayObject(SwayPhysics.Basic,
             ItemManager.GetItemByName("Placeable_Flower_AloeVera").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
