@@ -35,8 +35,7 @@ public class SwayPhysicsMod : Mod
         new SwayObject(SwayPhysics.Basic,
             ItemManager.GetItemByName("Placeable_StringLight_Vertical").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
 
-        new SwayObject(SwayPhysics.Basic,
-            ItemManager.GetItemByName("Placeable_StringLight_Horizontal").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject,
+        new SwayObject(SwayPhysics.XAxisOnly,
             ItemManager.GetItemByName("Placeable_StringLight_Horizontal").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
 
         new SwayObject(SwayPhysics.ZAxisOnly,
@@ -54,10 +53,10 @@ public class SwayPhysicsMod : Mod
         new SwayObject(SwayPhysics.ZAxisOnly,
             ItemManager.GetItemByName("Placeable_Clock_Fine").settings_buildable.GetBlockPrefabs()[1].gameObject),
 
-        new SwayObject(SwayPhysics.ZAxisOnly,
+        new SwayObject(SwayPhysics.Basic,
             ItemManager.GetItemByName("Placeable_Sign").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
 
-        new SwayObject(SwayPhysics.Basic,
+        new SwayObject(SwayPhysics.ZAxisOnly,
             ItemManager.GetItemByName("Placeable_Sign").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
 
         new SwayObject(SwayPhysics.Basic,
@@ -105,6 +104,92 @@ public class SwayPhysicsMod : Mod
         new SwayObject(SwayPhysics.XAxisOnly,
             ItemManager.GetItemByName("Placeable_Flag_07").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
 
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_1").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_1").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_2").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_2").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_3").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_3").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_4").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_4").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_5").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_5").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.XAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Herb_6").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_1").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_1").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_2").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_2").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_3").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_3").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_4").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_4").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_5").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_5").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_6").settings_buildable.GetBlockPrefabs()[0].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_DanglyDecoration_6").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_LightBottleWhite").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_LightBottleWhite").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.ZAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_LightBottleYellow").settings_buildable.GetBlockPrefabs()[1].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_Utopia_LightBottleYellow").settings_buildable.GetBlockPrefabs()[2].transform.GetChild(0).gameObject),
+
+        new SwayObject(SwayPhysics.XAxisOnly,
+            ItemManager.GetItemByName("Placeable_Utopia_Bottle").settings_buildable.GetBlockPrefabs()[0].gameObject),
+
+        new SwayObject(SwayPhysics.Basic,
+            ItemManager.GetItemByName("Placeable_TangaroaPlant_6").settings_buildable.GetBlockPrefabs()[0].gameObject),
     };
 
     public void Start()

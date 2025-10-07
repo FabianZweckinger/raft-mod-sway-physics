@@ -38,11 +38,11 @@
 6.  Create PR and I will update the mod.
 
 ## How does it work
-It's actually pretty simple... It mostly just sets the rotation to 0°,0°,0° in every frame.
+It's actually pretty simple... It mostly just sets the rotation to x = 0° & z = 0° in every frame.
 ```cs
 public class SwayPhysicsBasic : MonoBehaviour {
     private void Update() {
-        transform.rotation = Quaternion.Euler(0,0,0);
+        transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
     }
 }
 ```
